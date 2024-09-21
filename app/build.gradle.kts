@@ -21,6 +21,10 @@ dependencies {
 
     // This dependency is used by the application.
     implementation(libs.guava)
+
+    // temporal example
+    implementation("io.temporal:temporal-sdk:1.24.1")
+    testImplementation("io.temporal:temporal-testing:1.24.1")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
