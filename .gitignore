@@ -1,3 +1,5 @@
+temporal.db
+
 # Devenv
 .devenv*
 devenv.local.nix
